@@ -10,3 +10,5 @@ esttab baseline full, se
 coefplot (baseline, label(Baseline)) (full, label(Full)), drop(_cons) xline(0) title(Coefficient comparison)
 scatter y score, title(Outcome and score)
 histogram y, normal title(Outcome distribution)
+regress experience treatment
+regress score treatment
