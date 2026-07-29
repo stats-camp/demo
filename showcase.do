@@ -12,3 +12,9 @@ scatter y score, title(Outcome and score)
 histogram y, normal title(Outcome distribution)
 regress experience treatment
 regress score treatment
+histogram age if treatment == 0, percent addlabel name(hist_age_0, replace) title("Histogram of Age for Treatment Group 0")
+histogram age if treatment == 1, percent addlabel name(hist_age_1, replace) title("Histogram of Age for Treatment Group 1")
+histogram age if treatment == 0, percent name(hist_age_0, replace) title("Histogram of Age for Treatment Group 0")
+histogram age if treatment == 1, percent name(hist_age_1, replace) title("Histogram of Age for Treatment Group 1")
+histogram age if treatment == 0, percent title("Histogram of Age for Treatment Group 0")
+histogram age if treatment == 1, percent title("Histogram of Age for Treatment Group 1")
