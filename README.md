@@ -12,7 +12,7 @@ file. Keep published paths stable: moving a file breaks existing links.
 
 ## Example data
 
-`data/student_scores.csv` and `data/student_schools.csv` are small synthetic
-teaching datasets created for stats.camp. They do not describe real students.
-Both datasets and the focused example do-files are dedicated to the public
-domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+The files under `data/` are small synthetic teaching datasets created for
+stats.camp. They do not describe real students. The datasets and focused
+example do-files are dedicated to the public domain under
+[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
