@@ -18,3 +18,4 @@ histogram age if treatment == 0, percent name(hist_age_0, replace) title("Histog
 histogram age if treatment == 1, percent name(hist_age_1, replace) title("Histogram of Age for Treatment Group 1")
 histogram age if treatment == 0, percent title("Histogram of Age for Treatment Group 0")
 histogram age if treatment == 1, percent title("Histogram of Age for Treatment Group 1")
+tabulate experience, summarize(age)
