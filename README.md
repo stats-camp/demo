@@ -7,6 +7,10 @@ showcase and the runnable examples linked from the stats.camp learning pages.
 - Open a file under `examples/` for one focused command example.
 - Shared example datasets live under `data/`.
 
+The bundled `.dta` workflow uses `data/student_scores.dta` and
+`examples/open-dta.do`, so visitors can open a real Stata-format dataset
+without uploading a file or creating an account.
+
 Each learning-page link clones this repository and opens the matching `.do`
 file. Keep published paths stable: moving a file breaks existing links.
 
